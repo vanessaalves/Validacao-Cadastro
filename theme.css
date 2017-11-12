@@ -1,0 +1,37 @@
+fieldset {
+	border: 1px solid #000000;
+	background-color:#F8F8FF;
+}
+
+p { 	
+	width:20%;
+	font-size: 14px;
+	color:#000000;
+}
+h1 {
+	font-family: helvetica;
+	font-size: 20px;
+	text-transform: uppercase;
+	border-bottom: 1px solid #CCCCCC;
+	width: 30%;
+	padding-bottom: 5px;
+
+}
+
+input {
+	font-size: 12px;
+	height: 30px;
+	width: 200px;
+}
+input[type=button] {
+	font-weight: bold;
+	font-family: tahoma;
+	background-color: #EEEEE0;
+	color:#000000;
+	width: 50%;
+
+}
+input[type=button]:hover {
+	background-color: #B0C4DE;
+	color:#FFFFFF;
+}

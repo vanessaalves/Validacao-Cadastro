@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Vanessa Arruda">
+		<script type="text/javascript" src="javascript.js"></script>
+		<link rel="stylesheet" type="text/css" href="theme.css" />
+	</head>
+		<body>
+			<fieldset>
+				<form action="#" method="post" name="formularioCadastro">
+					<h1>Cadastro de Cliente</h1>
+					<p class="name">
+			            <label for="nome">Nome do Cliente:</label>
+			            <input name="nome" id="nome" type="text" placeholder="Nome completo" />
+	         		</p>
+			        <p class="cpf">
+						<label for="cpf">CPF:</label>
+						<input type="text" maxlength="11" name="cpf" placeholder="Apenas Números" size="12" onkeypress="return SomenteNumero(event)" />
+					</p>
+			         <p class="email">
+			            <label for="email">Email:</label>
+			            <input name="email" id="email" type="text" placeholder="Email Pessoal"/>
+			        </p>
+			        <p class="senha">
+			            <label for="senha">Senha:</label>
+			            <input type="password" name="senha" id="senha" placeholder="Senha de 8 dígitos" />
+			        </p>
+			        <p class="confirmasenha">
+			            <label for="senhaConfirmacao">Confirme a senha:</label>
+			            <input type="password" name="senhaConfirmacao" id="senhaConfirmacao" placeholder="Confirme a senha" />
+			        </p>
+			        <p class="submit">
+						<input type="button" name="button" value="Cadastrar" onclick="return validaCampos();" />
+					</p>
+				</form>
+			</fieldset>
+	</body>
+</html>
